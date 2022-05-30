@@ -1,0 +1,22 @@
+{
+  "name": "re-buscadas",
+  "version": "1.0.0",
+  "description": "API para buscar ofertas",
+  "main": "nodemon app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": "https://github.com/Martin-Noy/re-buscadas.git",
+  "author": "Martin Noy <MartinNoy98@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.11",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
